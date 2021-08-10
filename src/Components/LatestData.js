@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Design/App.css'
 
-function Data(props) {
+function LatestData(props) {
 
     function formatDate(date) {
         var d = new Date(date),
@@ -24,4 +24,4 @@ function Data(props) {
     )
 }
 
-export default Data
+export default LatestData

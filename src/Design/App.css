@@ -24,6 +24,15 @@ time, mark, audio, video {
 .title {
     font-size: xx-large;
     font-family: 'Telex', sans-serif;
+    margin-left: 5%;
+}
+
+#topstories {
+    font-size: large;
+    font-family: 'Telex', sans-serif;
+    margin-top: 5px;
+    margin-left: 5%;
+    text-align: center;
 }
 
 .page {
@@ -33,6 +42,7 @@ time, mark, audio, video {
 
 .header {
     background-color: #ae3737;
+    padding: 5px;
 }
 
 #navbar {
@@ -41,23 +51,32 @@ time, mark, audio, video {
     font-family: 'Open Sans', sans-serif;
 }
 
+#navbarlink :hover {
+    background-color: #cccccc;
+}
+
 #navbar li {
     font-size: 14px;
     display: inline-block;
     padding: 10px 30px;
+    height: 40px;
     border: solid black;
 }
 
-.newsTitle {
-    font-size: medium;
-    font-family: 'Open Sans', sans-serif;
+.newsbox {
+    padding: 4px;
+}
+
+.newsbox :hover {
+    background-color: #cccccc;
 }
 
 .newsLink {
-    font-size: smaller;
+    font-size: medium;
     font-family: 'Open Sans', sans-serif;
-}
-
-.news {
+    display: block;
+    border: solid black;
     padding: 4px;
+    text-decoration: none;
+    color: black;
 }

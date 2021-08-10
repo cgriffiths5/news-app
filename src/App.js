@@ -1,7 +1,7 @@
 import React from "react";
 import '../src/Design/App.css';
-import AppRouter from './Routers/AppRouter'
 import Home from './Components/Home'
+import AppRouter from './Routers/AppRouter'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <div class="header">
           <h1 class="title">24/7 News</h1>
         </div>
-      <AppRouter/>
+      <AppRouter />
     </div>
   );
 }
