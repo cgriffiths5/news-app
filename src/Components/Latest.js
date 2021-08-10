@@ -44,8 +44,8 @@ function Latest(props) {
     
       return (
              <div>
-                <h1>{props.item}</h1>
-             <LatestData items={news} />
+                <h2 class="subtitle">Top Stories</h2>
+                <LatestData items={news} />
              </div>
       )
     }

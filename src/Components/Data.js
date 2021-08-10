@@ -19,7 +19,7 @@ function Data(props) {
 
     return (
         <div class="newsbox">
-            {props.items.articles && props.items.articles.map(item => <a key={item.content} class="newsLink" href={item.url}>{item.title}<p>{formatDate(item.publishedAt)}</p></a>) }
+            {props.items.articles && props.items.articles.map(item => <a key={item.content} class="newsLink" href={item.url}>{item.title}<p class="newsDate">{formatDate(item.publishedAt)}</p></a>) }
         </div>
     )
 }

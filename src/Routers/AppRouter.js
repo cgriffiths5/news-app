@@ -24,15 +24,15 @@ function AppRouter() {
         <nav>
           <ul id="navbar">
             <li id="navbarlink">
-              <Link to="/">Home</Link>
+              <Link to="/" id="home">Home</Link>
             </li>
-            <li id="navbarlink">
-                <Link to="/latest">Top Stories</Link>
+             <li id="navbarlink">
+                <Link to="/latest" id="topstories">Top Stories</Link>
             </li>
             <li >
             <form class="submit" onSubmit={findNews}>
-               <input type="text" value={userInput} onChange={onChange}/>
-               <input type="submit" ></input>
+               <input class="submitText" type="text" value={userInput} onChange={onChange}/>
+               <input class="submitButton" type="submit" value="Search"></input>
              </form>
             </li>
           </ul>

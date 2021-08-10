@@ -27,6 +27,13 @@ time, mark, audio, video {
     margin-left: 5%;
 }
 
+.subtitle {
+    font-size: x-large;
+    font-family: 'Telex', sans-serif;
+    margin-left: 5%;
+    padding: 10px;
+}
+
 #topstories {
     font-size: large;
     font-family: 'Telex', sans-serif;
@@ -47,11 +54,12 @@ time, mark, audio, video {
 
 #navbar {
     background-color: white;
-    font-size: large;
+    display: flex;
+    font-size: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-#navbarlink :hover {
+#navbar :hover {
     background-color: #cccccc;
 }
 
@@ -61,6 +69,24 @@ time, mark, audio, video {
     padding: 10px 30px;
     height: 40px;
     border: solid black;
+}
+
+#home, #topstories {
+    font-family: monospace;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+}
+
+.submitText {
+   border: none;
+   border-bottom: black solid;
+   height: 25px;
+}
+
+.submitButton {
+   height: 25px;
+   font-family: monospace;
 }
 
 .newsbox {
@@ -79,4 +105,8 @@ time, mark, audio, video {
     padding: 4px;
     text-decoration: none;
     color: black;
+}
+
+.newsDate {
+    font-size: small;
 }

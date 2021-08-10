@@ -7,7 +7,7 @@ function App() {
   return (
     <div class="page">
         <div class="header">
-          <h1 class="title">24/7 News</h1>
+          <h1 class="title">Daily News</h1>
         </div>
       <AppRouter />
     </div>

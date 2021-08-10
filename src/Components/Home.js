@@ -45,6 +45,7 @@ fetch(url)
 
   return (
          <div>
+         <h2 class="subtitle">Today's News</h2>
          <Data items={news} />
          </div>
   )
