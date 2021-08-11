@@ -1,5 +1,5 @@
 import { React, useState} from "react";
-import { BrowserRouter, Switch, Route, Link} from "react-router-dom"
+import { HashRouter, Switch, Route, Link} from "react-router-dom"
 import Home from '../Components/Home'
 import Latest from '../Components/Latest'
 import '../Design/App.css'
@@ -20,7 +20,7 @@ function AppRouter() {
    }
 
   return (
-      <BrowserRouter>
+      <HashRouter basename='/'>
         <nav>
           <ul id="navbar">
             <li id="navbarlink">
@@ -46,9 +46,8 @@ function AppRouter() {
             <Latest topic={topic}/>
           </Route>
         </Switch>
+      </HashRouter>
 
-
-      </BrowserRouter>
   );
 }
 

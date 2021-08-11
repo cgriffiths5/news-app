@@ -1,8 +1,8 @@
 {
   "name": "news-app",
   "version": "0.1.0",
+  "homepage": "http://cgriffiths5.github.io/news-app",
   "private": true,
-  "homepage": "https://cgriffiths5.github.io/news-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
