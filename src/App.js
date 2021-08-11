@@ -10,6 +10,7 @@ function App() {
           <h1 class="title">Daily News</h1>
         </div>
       <AppRouter />
+      <p class="footnote">Website Created By Christopher Griffiths</p>
     </div>
   );
 }

@@ -24,7 +24,7 @@ time, mark, audio, video {
 .title {
     font-size: xx-large;
     font-family: 'Telex', sans-serif;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .subtitle {
@@ -53,7 +53,6 @@ time, mark, audio, video {
 }
 
 #navbar {
-    background-color: white;
     display: flex;
     font-size: 0;
     font-family: 'Open Sans', sans-serif;
@@ -64,15 +63,16 @@ time, mark, audio, video {
 }
 
 #navbar li {
+    background-color: white;
     font-size: 14px;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 40px;
     height: 40px;
     border: solid black;
 }
 
 #home, #topstories {
-    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: medium;
     color: black;
     text-decoration: none;
@@ -98,6 +98,7 @@ time, mark, audio, video {
 }
 
 .newsLink {
+    background-color: white;
     font-size: medium;
     font-family: 'Open Sans', sans-serif;
     display: block;
@@ -109,4 +110,9 @@ time, mark, audio, video {
 
 .newsDate {
     font-size: small;
+}
+
+.footnote {
+    font-size: x-small;
+    font-family: monospace;
 }
