@@ -104,6 +104,7 @@ time, mark, audio, video {
     display: block;
     border: solid black;
     padding: 4px;
+    margin: 4px;
     text-decoration: none;
     color: black;
 }
